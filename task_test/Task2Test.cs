@@ -19,7 +19,6 @@ namespace task_test
 					int n = GetRandomInt(100);
 					Fib f = new Fib();
 					FibArgs args = new FibArgs();
-					args.data = new byte[1234567];
 					args.n = n;
 
 					return f.Calculate(args);
