@@ -26,12 +26,6 @@ namespace task_test
 				};
 
 				var t = Task<int>.Factory.FromAsync(fun.BeginInvoke, fun.EndInvoke, null);
-				Console.WriteLine(t.Result);
-
-				if (i%10 == 0)
-				{
-					Console.WriteLine("\n\nThreadId: {0}, iteration:{1}\n\n", Thread.CurrentThread.GetHashCode(), i);
-				}
 			}
 		}
 	}
