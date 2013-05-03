@@ -6,7 +6,7 @@ namespace task_test
 	{
 		public static void Main (string[] args)
 		{
-			Task1Test t = new Task1Test();
+			var t = new Task2Test();
 			t.Run();
 
 		}
