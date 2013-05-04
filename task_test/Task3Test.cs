@@ -31,6 +31,9 @@ namespace task_test
 
 		void Cleanup(Task<int> t)
 		{
+			while (!t.IsCompleted)
+				Thread.Sleep(20);
+
 			Console.WriteLine("Cleaning up task {0}", t.Id);
 			t.Dispose();
 		}
