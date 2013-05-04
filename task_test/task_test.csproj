@@ -38,6 +38,7 @@
     <Compile Include="Fib.cs" />
     <Compile Include="BaseTask.cs" />
     <Compile Include="Task2Test.cs" />
+    <Compile Include="Task3Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
