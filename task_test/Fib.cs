@@ -13,8 +13,11 @@ namespace task_test
 	{
 		public int Calculate(FibArgs args)
 		{
-			int n = args.n;
+			return Calculate(args.n);
+		}
 
+		public int Calculate(int n)
+		{
 			int a = 0;
 			int b = 1;
 			// In N steps compute Fibonacci sequence iteratively.

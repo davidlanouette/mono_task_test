@@ -18,7 +18,13 @@ namespace task_test
 			// Test4 - = Test2, but with a cleanup at the end
 			// var t = new Task4Test();
 
-			var t = new Task5Test();
+			// var t = new Task5Test();
+
+			// var t = new Task6Test();
+
+			// var t = new Task7Test();
+
+			var t = new Task8Test();
 			t.Run();
 
 		}
