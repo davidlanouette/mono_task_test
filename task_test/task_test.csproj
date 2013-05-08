@@ -40,8 +40,8 @@
     <Compile Include="Task2Test.cs" />
     <Compile Include="Task3Test.cs" />
     <Compile Include="Task4Test.cs" />
-    <Compile Include="Tesk5Test.cs" />
     <Compile Include="Task6Test.cs" />
+    <Compile Include="Task5Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
